@@ -6,6 +6,7 @@ options = ['piedra', 'papel', 'tijera']
 computer_option = random.choice(options)
 
 user_option = input('Juguemos! Elige piedra, papel o tijera => ')
+user_option = user_option.lower()
 
 if user_option == computer_option:
     print(f"La computadora ha elegido {computer_option}")

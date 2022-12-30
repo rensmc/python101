@@ -5,6 +5,7 @@ import random
 options = ['piedra', 'papel', 'tijera']
 computer_option = random.choice(options)
 
+print('-' *20)
 user_option = input('Juguemos! Elige piedra, papel o tijera => ')
 user_option = user_option.lower()
 

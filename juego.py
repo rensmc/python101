@@ -2,12 +2,14 @@
 
 import random
 
-options = ['piedra', 'papel', 'tijera']
+options = ('piedra', 'papel', 'tijera')
 computer_option = random.choice(options)
 
 print('-' *20)
 user_option = input('Juguemos! Elige piedra, papel o tijera => ')
 user_option = user_option.lower()
+if not user_option in options:
+    print('Esa opción no es válida 🚫')
 
 if user_option == computer_option:
     print(f"Tu rival ha elegido {computer_option}")

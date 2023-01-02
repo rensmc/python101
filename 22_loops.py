@@ -1,1 +1,1 @@
-🎉 Happy new year!!✨
+print('🎉 Happy new year! ✨')
